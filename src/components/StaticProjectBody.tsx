@@ -23,7 +23,7 @@ export default function StaticProjectBody({ project }: { project: StaticProject 
   return (
     <Bounded as="article">
       <div className="rounded-2xl border-2 border-slate-800 bg-slate-900 px-4 py-10 md:px-8 md:py-20">
-        <Heading as="h1" className="text-3xl md:text-6xl lg:text-8xl">{project.title}</Heading>
+        <Heading as="h1" className="text-2xl md:text-6xl lg:text-8xl">{project.title}</Heading>
         <div className="flex flex-wrap gap-2 md:gap-4 text-green-400 text-sm md:text-xl font-bold pt-2 lg:pt-2">
           {project.tags.map((tag, index) => (
             <span key={index}>{tag}</span>

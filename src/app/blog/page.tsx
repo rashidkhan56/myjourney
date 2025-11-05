@@ -15,11 +15,11 @@ export default function BlogPage() {
   return (
     <Bounded>
       <Heading size="xl" className="mb-8">
-        ARK&apos;s Blog
+        Blog
       </Heading>
       <div className="mb-10">
         <p className="text-xl text-slate-300">
-          Welcome to <strong>Abdul Rashid Khan (ARK)</strong>&apos;s blog. 
+          Welcome to my blog. 
           Explore articles on web development, AI, blockchain, and the latest in technology.
         </p>
       </div>

@@ -94,13 +94,20 @@ export default function NavBar({
             ))}
             
             {/* CTA Button */}
-            <div className="mt-auto pt-6">
-              <Button
-                linkField={settings.data.cta_link}
-                label={settings.data.cta_label}
-                className="w-full justify-center"
-              />
-            </div>
+            <li className="list-none mt-2">
+              <a
+                href="https://wa.me/923492777660"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setOpen(false)}
+                className="group relative flex w-full text-slate-800 items-center justify-center overflow-hidden rounded-md border-2 border-slate-900 bg-slate-50 px-4 py-2 font-bold transition-transform ease-out hover:scale-105"
+              >
+                <span className="absolute inset-0 z-0 h-full translate-y-9 bg-green-300 transition-transform duration-300 ease-in-out group-hover:translate-y-0" />
+                <span className="relative flex items-center justify-center gap-2">
+                  Contact
+                </span>
+              </a>
+            </li>
           </nav>
         </div>
         <DesktopMenu settings={settings} pathname={pathname} />
@@ -164,11 +171,17 @@ function DesktopMenu({
         </React.Fragment>
       ))}
       <li>
-        <Button
-          linkField={settings.data.cta_link}
-          label={settings.data.cta_label}
-          className="ml-3"
-        />
+        <a
+          href="https://wa.me/923492777660"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative flex w-fit text-slate-800 items-center justify-center overflow-hidden rounded-md border-2 border-slate-900 bg-slate-50 px-4 py-2 font-bold transition-transform ease-out hover:scale-105 ml-3"
+        >
+          <span className="absolute inset-0 z-0 h-full translate-y-9 bg-green-300 transition-transform duration-300 ease-in-out group-hover:translate-y-0" />
+          <span className="relative flex items-center justify-center gap-2">
+            Contact
+          </span>
+        </a>
       </li>
     </div>
   );

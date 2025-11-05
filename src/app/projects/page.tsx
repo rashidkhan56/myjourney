@@ -15,11 +15,11 @@ export default function ProjectsPage() {
   return (
     <Bounded>
       <Heading size="xl" className="mb-6 md:mb-8">
-        ARK&apos;s Projects
+        Projects
       </Heading>
       <div className="prose prose-lg md:prose-xl prose-invert mb-6 md:mb-10">
         <p className="text-base md:text-lg">
-          Welcome to <strong>Abdul Rashid Khan (ARK)</strong>&apos;s project portfolio. 
+          Welcome to my project portfolio. 
           Here are some of the projects I&apos;ve worked on. Each project showcases
           different technologies and problem-solving approaches.
         </p>
