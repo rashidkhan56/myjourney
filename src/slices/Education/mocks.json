@@ -1,0 +1,52 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "type",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"school",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "my",
+							"type": "Text"
+						}
+					],
+					[
+						"degree",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "equator",
+							"type": "Text"
+						}
+					],
+					[
+						"course",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "memory",
+							"type": "Text"
+						}
+					],
+					[
+						"time_period",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "jar",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]
