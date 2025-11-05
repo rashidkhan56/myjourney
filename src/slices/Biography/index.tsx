@@ -28,10 +28,10 @@ const Biography = ({ slice }: BiographyProps): JSX.Element => {
         About Me!
         </Heading>
         <div className="prose prose-xl prose-slate prose-invert col-start-1">
-        I'm Abdul Rashid Khan, a passionate Backend and Blockchain Developer with over five years of experience turning complex ideas into seamless digital realities. <br /><br />
-        Born and raised in a world where technology constantly evolves, I’ve always been fascinated by how code can shape the future. My journey has led me deep into the realms of Node.js, Express.js, Next.js, React, and Web3, building scalable backend systems and integrating blockchain solutions on Solana and Ethereum. <br /><br />
-        What drives me isn’t just writing efficient code it’s creating systems that empower innovation and bring real-world impact. I thrive on challenges that push me to learn, adapt, and craft solutions that merge technology with purpose. <br /><br />
-        In essence, I’m a developer who bridges traditional backend engineering with the dynamic world of blockchain transforming abstract ideas into powerful, future-ready applications.
+        I&apos;m Abdul Rashid Khan, a passionate Backend and Blockchain Developer with over five years of experience turning complex ideas into seamless digital realities. <br /><br />
+        Born and raised in a world where technology constantly evolves, I&apos;ve always been fascinated by how code can shape the future. My journey has led me deep into the realms of Node.js, Express.js, Next.js, React, and Web3, building scalable backend systems and integrating blockchain solutions on Solana and Ethereum. <br /><br />
+        What drives me isn&apos;t just writing efficient code it&apos;s creating systems that empower innovation and bring real-world impact. I thrive on challenges that push me to learn, adapt, and craft solutions that merge technology with purpose. <br /><br />
+        In essence, I&apos;m a developer who bridges traditional backend engineering with the dynamic world of blockchain transforming abstract ideas into powerful, future-ready applications.
         </div>
         <button
           onClick={() => {

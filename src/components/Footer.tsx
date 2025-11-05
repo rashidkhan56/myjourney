@@ -42,7 +42,7 @@ const getFallbackSettings = (): SettingsDocument => {
 };
 
 export default async function Footer() {
-  let settings;
+  let settings: SettingsDocument;
   try {
     const client = createClient();
     settings = await client.getSingle("settings");
