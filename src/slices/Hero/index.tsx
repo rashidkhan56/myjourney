@@ -96,7 +96,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
             </span>  
           </h1>
           <span className="job-title block bg-gradient-to-tr from-green-500 via-green-200 to-green-500 bg-clip-text text-2xl font-bold uppercase tracking-[.2em] text-transparent opacity-0 md:text-4xl">
-            Backend & Blockchain 
+          Software Engineer | Backend & Web3 Developer
           </span>
         </div>
       </div>

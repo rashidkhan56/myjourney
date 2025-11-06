@@ -30,7 +30,7 @@ const Experience = (): JSX.Element => {
       {/* uExel */}
       <div className="ml-6 mt-8 max-w-prose md:ml-12 md:mt-16">
         <Heading as="h3" size="sm">
-          BACKEND & BLOCKCHAIN DEVELOPER
+         Full Stack Developer
         </Heading>
         <div className="mt-1 flex w-fit items-center gap-1 text-2xl font-semibold tracking-tight text-slate-400">
           <span>uExel</span>
